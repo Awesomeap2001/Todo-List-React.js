@@ -21,7 +21,7 @@ const Todo = () => {
     }
 
     const deleteTodo = (id) => {
-        setTodoList((todoList => todoList.filter((item, index) => index !== id)))
+        setTodoList((todoList) => todoList.filter((item, index) => index !== id))
     }
 
     return (
